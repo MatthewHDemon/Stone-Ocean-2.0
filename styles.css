@@ -273,7 +273,7 @@ p {
 
 .textHistoryContainer article {
     width: 95%;
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     text-align: left;
     width: 100%;
@@ -290,7 +290,7 @@ p {
     }
     .introducción {
         margin-top: 30vh;
-        font-size: 22px;
+        font-size: 18px;
         white-space: normal;
         width: 450px;
     }
@@ -352,13 +352,13 @@ p {
     }
 
     .logo img {
-        width: 440px;
+        width:90%
         filter: drop-shadow(10px 10px 10px black);
     }
     .buttonStart {
         margin-top: 4vh;
         padding: 3vh;
-        font-size: 16px;
+        font-size: 13.5px;
     }
     line hr {
         margin-top: 5vh;
@@ -381,8 +381,25 @@ p {
         justify-content: center;
         overflow-y: scroll;
     }
+
+    .historia {
+        width: 100%;
+    }
     .historiaContainer img {
         width: 100%;
+    }
+
+    .imagenHistoriaContainer {
+            width: 100%;
+            overflow: hidden;
+    }
+
+    .imagenHistoriaContainer article {
+        font-size: 19px;
+    }
+
+    .imagenHistoriaContainer img {
+        width: 700px;
     }
 }
 
