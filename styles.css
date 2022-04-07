@@ -1,0 +1,406 @@
+body {
+    background-image: url(./assets/StoneOceanBackground2.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    background-image: url(./assets/StoneOceanBackground2.png);
+    background-attachment: fixed;
+    width: 100%;
+    height: 12vh;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgb(43, 43, 43);
+    position: fixed;
+    align-items: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.option:hover {
+    background-color: aqua;
+}
+
+.option:hover a {
+    color: aliceblue;
+    transition: 0.2s;
+    font-size: 18px;
+}
+
+li {
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.butterfly {
+    background: none;
+    font-size: 28px;
+}
+
+.butterfly:hover {
+    background-color: none;
+    font-size: 36px;
+    transition: 0.2s;
+}
+
+#ckeckbtn {
+    display: none;
+    font-size: 50px;
+    line-height: 30px;
+    position: absolute;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(127, 255, 212);
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+#check {
+    display: none;
+}
+
+.homecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20vh;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.introducción {
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+
+.buttonStart {
+    padding: 3.5vh;
+    font-size: 14px;
+    border-radius: 9px;
+    background-color: rgb(176, 255, 49);
+    cursor: pointer;
+}
+
+.buttonStart a {
+    color: rgb(30, 45, 255);
+    font-weight: bold;
+}
+
+.buttonStart:hover a {
+    color: rgb(0, 13, 190);
+}
+
+.buttonStart:hover {
+    background-color: rgb(131, 190, 35);
+    transition: 0.3s;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0vh 4vh;
+    justify-content: center;
+    background-color: #131313dc;
+    padding: 3vh 3vh;
+}
+.logo img {
+    width: 100%;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#contentItemsCarrusel {
+    height: 380px;
+    overflow: hidden;
+    width: 45%;
+    box-shadow: 0px 5px 5px rgb(43, 43, 43);
+    margin: 0 4vh;
+}
+
+.itemCarrusel {
+    height: 380px;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjetaCarrusel-1 {
+    background-image: url(./assets/gif9.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tarjetaCarrusel-2 {
+    background-image: url(./assets/gif5.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tarjetaCarrusel-3 {
+    background-image: url(./assets/gif6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tarjetaCarrusel-4 {
+    background-image: url(./assets/gif10.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tarjetaCarrusel-5 {
+    background-image: url(./assets/gif11.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tarjetaCarrusel-6 {
+    background-image: url(./assets/gif12.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+i {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+p {
+    display: none;
+}
+
+.historia {
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.historiaContainer {
+    display: flex;
+    width: 85%;
+    margin-top: 15vh;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.historiaContainer img {
+    width: 750px;
+}
+
+.imagenHistoriaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenHistoriaContainer article {
+    font-size: 25px;
+    color: aquamarine;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 2.5vh;
+}
+
+.textHistoryContainer {
+    display: flex;
+    max-height: 535px;
+    max-width: 1000px;
+    overflow-y: hidden;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.textHistoryContainer article {
+    width: 95%;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    padding: 2.5vh;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+@media screen and (max-width: 750px) {
+    .homecontainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        align-items: center;
+    }
+    .introducción {
+        margin-top: 30vh;
+        font-size: 22px;
+        white-space: normal;
+        width: 450px;
+    }
+    .introducción article {
+        width: 95%;
+    }
+    .menu {
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        white-space: nowrap;
+        text-align: right;
+        width: fit-content;
+        margin: max-content;
+        margin-top: 400px;
+    }
+    .butterfly {
+        background-color: aquamarine;
+    }
+
+    .logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu ul {
+        display: none;
+    }
+    #ckeckbtn {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        display: block;
+    }
+    .tarjetaCarrusel {
+        width: 100%;
+    }
+    #contentItemsCarrusel {
+        width: 95%;
+        margin-top: 1vh;
+    }
+
+    .logoContainer {
+        width: 95%;
+        margin-top: 9.5vh;
+    }
+
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: -25vh;
+        z-index: 1;
+    }
+
+    .logo img {
+        width: 440px;
+        filter: drop-shadow(10px 10px 10px black);
+    }
+    .buttonStart {
+        margin-top: 4vh;
+        padding: 3vh;
+        font-size: 16px;
+    }
+    line hr {
+        margin-top: 5vh;
+        color: #000000;
+        height: 5px ;
+    }
+    .historiaContainer {
+        display: flex;
+        width: 95%;
+        margin-top: 15vh;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .textHistoryContainer {
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        height: 350px;
+        width: 100%;
+        overflow-y: hidden;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+    .historiaContainer img {
+        width: 100%;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #00eeff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(167, 100%, 38%);
+}
