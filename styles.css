@@ -302,6 +302,7 @@ p {
         position: fixed;
         display: flex;
         justify-content: flex-end;
+        padding: 0 2vh;
     }
     .menu ul {
         display: flex;
@@ -311,7 +312,8 @@ p {
         text-align: right;
         width: fit-content;
         margin: max-content;
-        margin-top: 400px;
+        margin-top: 385px;
+        margin-right: 1vh;
     }
     .butterfly {
         background-color: aquamarine;
