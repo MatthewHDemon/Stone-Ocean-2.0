@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/StoneOceanBackground2.png);
+    background-image: url(./assets/StoneOceanBackground.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
 
 .menu {
     display: flex;
-    background-image: url(./assets/StoneOceanBackground2.png);
+    background-image: url(./assets/StoneOceanBackground.png);
     background-attachment: fixed;
     width: 100%;
     height: 12vh;
@@ -182,37 +182,37 @@ li {
 }
 
 #tarjetaCarrusel-1 {
-    background-image: url(./assets/gif9.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel1.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #tarjetaCarrusel-2 {
-    background-image: url(./assets/gif5.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel2.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #tarjetaCarrusel-3 {
-    background-image: url(./assets/gif6.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel3.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #tarjetaCarrusel-4 {
-    background-image: url(./assets/gif10.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel4.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #tarjetaCarrusel-5 {
-    background-image: url(./assets/gif11.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel5.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #tarjetaCarrusel-6 {
-    background-image: url(./assets/gif12.gif);
+    background-image: url(./assets/Carrusel/imageCarrusel6.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -227,10 +227,25 @@ p {
     display: none;
 }
 
+.line hr {
+    background-color: #1db985c9;
+    border: none;
+    height: 12px;
+    width: auto;
+
+}
+
+.line {
+    padding: 8vh 0;
+}
+
+
+
+
+
 .historia {
     width: fit-content;
     height: fit-content;
-    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -238,7 +253,6 @@ p {
 .historiaContainer {
     display: flex;
     width: 85%;
-    margin-top: 15vh;
     flex-direction: row;
     align-items: flex-start;
 }
@@ -282,6 +296,222 @@ p {
     filter: drop-shadow(10px 10px 10px black);
 }
 
+.elencoContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.optionsCharacters {
+    display: flex;
+    width: 95%;
+    height: 675px;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color: rgba(113, 236, 13, 0.267);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.optionsCharacters img {
+    width:fit-content;
+    height: 300px;
+    margin: 3vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.optionsCharacters img:hover {
+    box-shadow: 6px 5px 5px rgb(0, 0, 0);
+    height: 310px;
+    width: auto ;
+    transition: 0.3s;
+}
+
+
+.titleElenco {
+    text-align: center;
+    font-size: 25px;
+    color:aquamarine;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.651);
+    width: 95%;
+    padding: 3vh;
+}
+
+.allCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    background-color: rgba(0, 0, 0, 0.466);
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 95%;
+    margin: 5vh 0vh;
+    padding: 4vh 0vh;
+}
+
+.description1Container {
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+    justify-content: center;
+    height: 900px;
+
+}
+
+.description2Container {
+    display: flex;
+    width: 100%;
+    margin-top: 10vh;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 50vh;
+
+
+}
+
+
+
+.description3Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+
+
+}
+
+.description4Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 1vh;
+}
+
+.description5Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 1vh;
+}
+
+.description6Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 5vh;
+}
+
+.description7Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 5vh;
+}
+
+.description8Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 25vh;
+}
+
+.description9Container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 900px;
+    margin-bottom: 25vh;
+}
+
+
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 90%;
+}
+
+.characterImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 1vh;
+}
+
+.titleCharacter {
+    text-align: center;
+    font-size: 25px;
+    color:aquamarine;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 3vh;
+    white-space:nowrap;
+    margin-bottom: 3vh;
+}
+
+.imageCharacter {
+    width: fit-content;
+}
+
+.imageCharacter img {
+    width: 300px;
+}
+
+.imageJotaro img {
+    width: 520px;
+}
+
+.imageWhiteSnake img {
+    width: 300px;
+}
+
+.imagenDescriptionCharacter {
+    display: flex;
+    width: 75%;
+    overflow: hidden;
+    justify-content: center;
+    margin: 1vh 0vh;
+}
+
+.descriptionCharacterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #f5f5f5;
+    width: 55%;
+}
+
+.descriptionCharacter {
+    width: 75%;
+    text-align: left;
+    background-color: #0000006c;
+    font-size: 19px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 2vh 4vh;
+}
+
+
+
+
 @media screen and (max-width: 750px) {
     .homecontainer {
         display: flex;
@@ -302,7 +532,7 @@ p {
         position: fixed;
         display: flex;
         justify-content: flex-end;
-        padding: 0 2vh;
+        padding: 0 0.5vh;
     }
     .menu ul {
         display: flex;
@@ -313,7 +543,6 @@ p {
         width: fit-content;
         margin: max-content;
         margin-top: 385px;
-        margin-right: 1vh;
     }
     .butterfly {
         background-color: aquamarine;
@@ -355,7 +584,7 @@ p {
     }
 
     .logo img {
-        width:90%
+        width:90%;
         filter: drop-shadow(10px 10px 10px black);
     }
     .buttonStart {
@@ -363,15 +592,9 @@ p {
         padding: 3vh;
         font-size: 13.5px;
     }
-    line hr {
-        margin-top: 5vh;
-        color: #000000;
-        height: 5px ;
-    }
     .historiaContainer {
         display: flex;
         width: 95%;
-        margin-top: 15vh;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -404,6 +627,48 @@ p {
     .imagenHistoriaContainer img {
         width: 700px;
     }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descriptionCharacterContainer {
+        width: 95%;
+    }
+    .imagenDescriptionCharacter {
+        width: 100%;
+    }
+    .descriptionCharacter {
+        width: 100%;
+    }
+    
+    .description2Container {
+        margin-top: 105vh;
+    }
+    .description3Container {
+        margin-top: 5vh;
+    }
+    .description4Container {
+        margin-top: 75vh;
+    }
+    .description5Container {
+        margin-top: 5vh;
+    }
+    .description6Container {
+        margin-top: 95vh;
+    }
+    .description7Container {
+        margin-top: 5vh;
+    }
+    .description8Container {
+        margin-top: 85vh;
+    }
+    .description9Container {
+        margin-top: 5vh;
+    }
+
 }
 
 
