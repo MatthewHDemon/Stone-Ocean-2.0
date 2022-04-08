@@ -345,6 +345,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 .info {
     display: flex;
@@ -510,6 +511,155 @@ p {
 }
 
 
+.manga {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.mangaContainer {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.mangaContainer img {
+    width: 750px;
+}
+
+.imageMangaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenMangaContainer article {
+    font-size: 25px;
+    color: aquamarine;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 2.5vh;
+}
+
+.textMangaContainer {
+    display: flex;
+    max-height: 535px;
+    max-width: 1000px;
+    overflow-y: hidden;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.textMangaContainer article {
+    width: 95%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    padding: 2.5vh;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+
+.textMangaContainer a {
+    color:aquamarine;
+}
+
+.textMangaContainer a:hover {
+    color:rgb(85, 168, 141);
+    
+
+}
+
+.anime {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.animeContainer {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.imageAnimeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenAnimeContainer article {
+    font-size: 25px;
+    color: aquamarine;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 2.5vh;
+}
+
+.DescriptionAndTrailers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textAnimeContainer {
+    display: flex;
+    max-height: 535px;
+    max-width: 1000px;
+    overflow-y: hidden;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.textAnimeContainer article {
+    width: 95%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    padding: 2.5vh;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+
+.textAnimeContainer a {
+    color:aquamarine;
+}
+
+.textAnimeContainer a:hover {
+    color:rgb(85, 168, 141);
+    
+
+}
+
+.trailers {
+    display: flex;
+    flex-direction: column;
+    background-color: #0000005b;
+    width: fit-content;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 1.5vh;
+}
+
+iframe {
+    margin: 3vh 5.5vh;
+}
+
+
+
+
 
 
 @media screen and (max-width: 750px) {
@@ -587,30 +737,24 @@ p {
         width:90%;
         filter: drop-shadow(10px 10px 10px black);
     }
+
     .buttonStart {
         margin-top: 4vh;
         padding: 3vh;
         font-size: 13.5px;
     }
+
+    .historia {
+        width: 100%;
+    }
+
     .historiaContainer {
         display: flex;
         width: 95%;
         flex-direction: column;
         align-items: flex-start;
     }
-    .textHistoryContainer {
-        background-color: rgba(0, 0, 0, 0.541);
-        display: flex;
-        height: 350px;
-        width: 100%;
-        overflow-y: hidden;
-        justify-content: center;
-        overflow-y: scroll;
-    }
 
-    .historia {
-        width: 100%;
-    }
     .historiaContainer img {
         width: 100%;
     }
@@ -627,6 +771,16 @@ p {
     .imagenHistoriaContainer img {
         width: 700px;
     }
+    .textHistoryContainer {
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        height: 350px;
+        width: 100%;
+        overflow-y: hidden;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+    
 
     .infoContainer {
         display: flex;
@@ -668,6 +822,122 @@ p {
     .description9Container {
         margin-top: 5vh;
     }
+
+    
+    .manga {
+        width: 100%;
+    }
+    .mangaContainer {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mangaContainer img {
+        width: 100%;
+    }
+
+    .imagenMangaContainer {
+            width: 100%;
+            overflow: hidden;
+    }
+
+    .imagenMangaContainer article {
+        font-size: 19px;
+    }
+
+    .imagenMangaContainer img {
+        width: 700px;
+    }
+
+    .textMangaContainer {
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        height: 350px;
+        width: 100%;
+        overflow-y: hidden;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .anime {
+        width: 100%;
+    }
+    .animeContainer {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .animeContainer img {
+        width: 100%;
+    }
+
+    .imagenAnimeContainer {
+            width: 100%;
+            overflow: hidden;
+    }
+
+    .imagenAnimeContainer article {
+        font-size: 19px;
+    }
+
+    .DescriptionAndTrailers {
+        width: 100%;
+    }
+
+    .trailers {
+        width: 100%;
+        align-items: center;
+        margin: 1vh 0;
+    }
+
+    .trailer_1 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .trailer_1 iframe {
+        width: 100%;
+        align-items: center;
+    }
+
+    .trailer_2 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .trailer_2 iframe {
+        width: 100%;
+        align-items: center;
+    }
+
+    .trailer_3 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .trailer_3 iframe {
+        width: 100%;
+        align-items: center;
+    }
+
+    .textAnimeContainer {
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        height: 350px;
+        width: 100%;
+        overflow-y: hidden;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+
+
+
+
 
 }
 
