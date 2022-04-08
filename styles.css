@@ -657,6 +657,216 @@ iframe {
     margin: 3vh 5.5vh;
 }
 
+.before {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.beforeContainer {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.imageBeforeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenBeforeContainer article {
+    font-size: 25px;
+    color: rgb(226, 109, 255);
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 2.5vh;
+}
+
+.textBeforeContainer {
+    display: flex;
+    max-height: 535px;
+    max-width: 1000px;
+    overflow-y: hidden;
+    justify-content: center;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.textBeforeContainer article {
+    width: 95%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    padding: 2.5vh;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+
+.textBeforeContainer a {
+    color:aquamarine;
+}
+
+.textBeforeContainer a:hover {
+    color:rgb(85, 168, 141);
+    
+
+}
+
+.Jojotubers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.Jojotubers article {
+        text-align: center;
+        color: #f5f5f5;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.753);
+        width:fit-content;
+        padding: 3vh;
+}
+
+.Konoyaro {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 1vh 5vh;
+}
+
+.Konoyaro article {
+    color: aquamarine;
+}
+
+.Konoyaro img {
+    border-radius: 50%;
+}
+
+.Konoyaro a{
+    padding: 2vh 2vh;
+    margin: 1vh;
+}
+
+.Konoyaro img:hover{
+    box-shadow: 6px 5px 5px rgb(0, 0, 0);
+    width: 255px;
+    transition: 0.3s;
+
+}
+
+.JJoe {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 1vh 5vh;
+}
+
+.JJoe article {
+    color: aquamarine;
+}
+
+.JJoe img {
+    border-radius: 50%;
+}
+
+.JJoe a{
+    padding: 2vh 2vh;
+    margin: 1vh;
+}
+
+.JJoe img:hover{
+    box-shadow: 6px 5px 5px rgb(0, 0, 0);
+    width: 255px;
+    transition: 0.3s;
+
+}
+
+.DamoStories {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 1vh 5vh;
+}
+
+.DamoStories article {
+    color: aquamarine;
+}
+
+.DamoStories  img {
+    border-radius: 50%;
+}
+
+.DamoStories  a{
+    padding: 2vh 2vh;
+    margin: 1vh;
+}
+
+.DamoStories img:hover{
+    box-shadow: 6px 5px 5px rgb(0, 0, 0);
+    width: 255px;
+    transition: 0.3s;
+
+}
+
+.JojotubersContainer {
+    display: flex;
+    margin: 5vh 0vh;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #000000b2;
+    padding: 2.5vh;
+    justify-content: flex-end;
+}
+
+.gitHubLogo a {
+    display: flex;
+    color: #00eeff;
+    font-size: 35px;
+    justify-content: flex-end;
+    margin: 0vh 1vh;
+}
+
+.gitHubLogo a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.linkedinLogo a {
+    display: flex;
+    color: #00eeff;
+    font-size: 35px;
+    justify-content: flex-end;
+}
+
+.linkedinLogo a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.instagramLogo a {
+    display: flex;
+    color: #00eeff;
+    font-size: 35px;
+    justify-content: flex-end;
+}
+
+.instagramLogo a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
 
 
 
@@ -937,6 +1147,47 @@ iframe {
         overflow-y: hidden;
         justify-content: center;
         overflow-y: scroll;
+    }
+
+    .before {
+        width: 100%;
+    }
+    .beforeContainer {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .beforeContainer img {
+        width: 100%;
+    }
+
+    .imagenBeforeContainer {
+            width: 100%;
+            overflow: hidden;
+    }
+
+    .imagenBeforeContainer article {
+        font-size: 19px;
+    }
+
+    .imagenBeforeContainer img {
+        width: 700px;
+    }
+
+    .textBeforeContainer {
+        background-color: rgba(0, 0, 0, 0.541);
+        display: flex;
+        height: 350px;
+        width: 100%;
+        overflow-y: hidden;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    .JojotubersContainer {
+        flex-direction: column;
     }
 
 
