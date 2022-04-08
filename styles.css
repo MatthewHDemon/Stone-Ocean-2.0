@@ -892,6 +892,7 @@ iframe {
         width: 100%;
         align-items: center;
         margin: 1vh 0;
+        padding: 0;
     }
 
     .trailer_1 {
@@ -922,6 +923,10 @@ iframe {
     .trailer_3 iframe {
         width: 100%;
         align-items: center;
+    }
+
+    iframe {
+        margin: 1vh 0vh;
     }
 
     .textAnimeContainer {
