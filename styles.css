@@ -18,6 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    justify-content: center;
 }
 
 .menu {
@@ -117,7 +118,7 @@ li {
 
 .buttonStart {
     padding: 3.5vh;
-    font-size: 14px;
+    font-size: 15px;
     border-radius: 9px;
     background-color: rgb(176, 255, 49);
     cursor: pointer;
@@ -231,7 +232,7 @@ p {
     background-color: #1db985c9;
     border: none;
     height: 12px;
-    width: auto;
+    width: 100%;
 
 }
 
