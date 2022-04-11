@@ -61,6 +61,7 @@ a {
 li {
     background-color: aquamarine;
     padding: 15px;
+    border-radius: 1px;
 }
 
 .butterfly {
@@ -104,7 +105,6 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
 }
 
 .introducción {
@@ -147,6 +147,7 @@ li {
     justify-content: center;
     background-color: #131313dc;
     padding: 3vh 3vh;
+    border-radius: 5px;
 }
 .logo img {
     width: 100%;
@@ -159,6 +160,7 @@ li {
     width: 45%;
     box-shadow: 0px 5px 5px rgb(43, 43, 43);
     margin: 0 4vh;
+    border-radius: 5px;
 }
 
 .itemCarrusel {
@@ -259,6 +261,7 @@ p {
 }
 .historiaContainer img {
     width: 750px;
+    border-radius: 0 0 0px 8px;
 }
 
 .imagenHistoriaContainer {
@@ -275,16 +278,19 @@ p {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 2.5vh;
+    border: 3px solid aquamarine;
+    border-radius: 8px 0px 0px 0px;
 }
 
 .textHistoryContainer {
     display: flex;
-    max-height: 535px;
+    max-height: 542px;
     max-width: 1000px;
     overflow-y: hidden;
     justify-content: center;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 0 8px 8px 0px;
 }
 
 .textHistoryContainer article {
@@ -312,9 +318,11 @@ p {
     align-items:center;
     flex-wrap: wrap;
     justify-content:center;
-    background-color:rgba(127, 255, 212, 0.39);
+    background-color:rgba(0, 0, 0, 0.39);
     overflow: hidden;
     overflow-y: scroll;
+    border-radius: 0 0 8px 8px;
+
 }
 
 .optionsCharacters img {
@@ -322,13 +330,16 @@ p {
     height: 300px;
     margin: 3vh;
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 4px solid aquamarine;
 }
 
 .optionsCharacters img:hover {
     box-shadow: 6px 5px 5px rgb(0, 0, 0);
     height: 310px;
     width: auto ;
-    transition: 0.3s;
+    transition: 0.2s;
+    border: 4px solid rgb(61, 122, 102);
 }
 
 
@@ -340,6 +351,8 @@ p {
     background-color: rgba(0, 0, 0, 0.651);
     width: 95%;
     padding: 3vh;
+    border: 4px solid aquamarine;
+    border-radius: 8px 8px 0 0;
 }
 
 .allCharacters {
@@ -358,6 +371,7 @@ p {
     width: 95%;
     margin: 5vh 0vh;
     padding: 4vh 0vh;
+    border-radius: 5px;
 }
 
 .description1Container {
@@ -465,6 +479,8 @@ p {
     padding: 3vh;
     white-space:nowrap;
     margin-bottom: 3vh;
+    border-radius: 6px;
+    border: 4px solid aquamarine;
 }
 
 .imageCharacter {
@@ -489,6 +505,7 @@ p {
     overflow: hidden;
     justify-content: center;
     margin: 1vh 0vh;
+    border-radius: 8px;
 }
 
 .descriptionCharacterContainer {
@@ -509,6 +526,7 @@ p {
     overflow: hidden;
     overflow-y: scroll;
     padding: 2vh 4vh;
+    border-radius: 8px;
 }
 
 
@@ -527,6 +545,7 @@ p {
 }
 .mangaContainer img {
     width: 750px;
+    border-radius: 0px 0px 8px 8px;
 }
 
 .imageMangaContainer {
@@ -543,6 +562,8 @@ p {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 2.5vh;
+    border-radius: 8px 0px 0px 0px;
+    border: 4px solid aquamarine;
 }
 
 .textMangaContainer {
@@ -553,6 +574,8 @@ p {
     justify-content: center;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 0px 8px 8px 0px;
+    
 }
 
 .textMangaContainer article {
@@ -590,10 +613,14 @@ p {
     align-items: flex-start;
 }
 
-.imageAnimeContainer {
+.imagenAnimeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.imagenAnimeContainer img {
+    border-radius: 0px 0px 0px 8px;
 }
 
 .imagenAnimeContainer article {
@@ -604,6 +631,8 @@ p {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 2.5vh;
+    border-radius: 8px 0px 0px 0px;
+    border: 4px solid aquamarine;
 }
 
 .DescriptionAndTrailers {
@@ -620,6 +649,7 @@ p {
     justify-content: center;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 0px 8px 8px 0px;
 }
 
 .textAnimeContainer article {
@@ -646,16 +676,18 @@ p {
 .trailers {
     display: flex;
     flex-direction: column;
-    background-color: #0000005b;
+    background-color: rgba(127, 255, 212, 0.452);
     width: fit-content;
-    height: 300px;
+    height: 298px;
     overflow: hidden;
     overflow-y: scroll;
     padding: 1.5vh;
+    border-radius: 0px 0px 8px 0px;
 }
 
 iframe {
     margin: 3vh 5.5vh;
+    border-radius: 4px
 }
 
 .before {
@@ -672,10 +704,14 @@ iframe {
     align-items: flex-start;
 }
 
-.imageBeforeContainer {
+.imagenBeforeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.imagenBeforeContainer img {
+    border-radius: 0px 0px 8px 8px;
+    
 }
 
 .imagenBeforeContainer article {
@@ -686,6 +722,8 @@ iframe {
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.514);
     padding: 2.5vh;
+    border-radius: 8px 0px 0px 0px;
+    border: 4px solid rgb(226, 109, 255) ;
 }
 
 .textBeforeContainer {
@@ -696,6 +734,7 @@ iframe {
     justify-content: center;
     overflow-y: scroll;
     background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 0px 8px 8px 0px;
 }
 
 .textBeforeContainer article {
@@ -732,6 +771,8 @@ iframe {
         background-color: rgba(0, 0, 0, 0.753);
         width:fit-content;
         padding: 3vh;
+        border-radius: 8px;
+        border: 4px solid aquamarine;
 }
 
 .Konoyaro {
@@ -748,6 +789,7 @@ iframe {
 
 .Konoyaro img {
     border-radius: 50%;
+    border: 4px solid aquamarine;
 }
 
 .Konoyaro a{
@@ -758,7 +800,9 @@ iframe {
 .Konoyaro img:hover{
     box-shadow: 6px 5px 5px rgb(0, 0, 0);
     width: 255px;
-    transition: 0.3s;
+    transition: 0.2s;
+    border: 4px solid aquamarine;
+    border: 4px solid rgb(61, 122, 102);
 
 }
 
@@ -776,6 +820,7 @@ iframe {
 
 .JJoe img {
     border-radius: 50%;
+    border: 4px solid aquamarine;
 }
 
 .JJoe a{
@@ -787,6 +832,8 @@ iframe {
     box-shadow: 6px 5px 5px rgb(0, 0, 0);
     width: 255px;
     transition: 0.3s;
+    border: 4px solid aquamarine;
+    border: 4px solid rgb(61, 122, 102);
 
 }
 
@@ -804,6 +851,8 @@ iframe {
 
 .DamoStories  img {
     border-radius: 50%;
+    border: 4px solid aquamarine;
+    
 }
 
 .DamoStories  a{
@@ -815,6 +864,7 @@ iframe {
     box-shadow: 6px 5px 5px rgb(0, 0, 0);
     width: 255px;
     transition: 0.3s;
+    border: 4px solid rgb(61, 122, 102);
 
 }
 
@@ -983,15 +1033,14 @@ iframe {
         width: 700px;
     }
     .textHistoryContainer {
-        background-color: rgba(0, 0, 0, 0.541);
         display: flex;
         height: 350px;
         width: 100%;
         overflow-y: hidden;
         justify-content: center;
         overflow-y: scroll;
+        border-radius: 0 0 8px 8px;
     }
-    
 
     .infoContainer {
         display: flex;
@@ -1016,13 +1065,13 @@ iframe {
         margin-top: 5vh;
     }
     .description4Container {
-        margin-top: 75vh;
+        margin-top: 72vh;
     }
     .description5Container {
         margin-top: 5vh;
     }
     .description6Container {
-        margin-top: 95vh;
+        margin-top: 94vh;
     }
     .description7Container {
         margin-top: 5vh;
@@ -1032,6 +1081,15 @@ iframe {
     }
     .description9Container {
         margin-top: 5vh;
+    }
+    .description11Container {
+        margin-top: 3vh;
+    }
+    .description13Container {
+        margin-top: 3vh;
+    }
+    .description15Container {
+        margin-top: 3vh;
     }
 
     
