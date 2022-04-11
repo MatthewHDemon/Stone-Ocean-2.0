@@ -50,7 +50,7 @@ a {
 }
 
 .option:hover {
-    background-color: aqua;
+    background-color: rgb(94, 214, 214);
 }
 
 .option:hover a {
@@ -76,7 +76,7 @@ li {
     background-color: none;
     font-size: 36px;
     transition: 0.2s;
-    background-color: aqua;
+    background-color: rgb(94, 214, 214);
 }
 
 #ckeckbtn {
