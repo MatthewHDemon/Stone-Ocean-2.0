@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    justify-content: center;
     background-image: url(./assets/StoneOceanBackground.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -91,6 +93,7 @@ li {
     background-color: rgba(0, 0, 0, 0.747);
     border-radius: 4px;
 }
+
 
 #check {
     display: none;
