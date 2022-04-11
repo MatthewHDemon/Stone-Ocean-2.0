@@ -91,11 +91,6 @@ li {
     background-color: rgba(0, 0, 0, 0.747);
     border-radius: 4px;
 }
-#ckeckbtn:hover {
-    color:rgba(0, 0, 0, 0.747);
-    background-color: aquamarine;
-    transition: 0.2s;
-}
 
 #check {
     display: none;
