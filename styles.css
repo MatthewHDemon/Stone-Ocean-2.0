@@ -828,7 +828,6 @@ iframe {
         width:fit-content;
         padding: 3vh;
         border-radius: 8px;
-        border: 4px solid aquamarine;
 }
 
 .Konoyaro {
@@ -1348,6 +1347,23 @@ iframe {
     }
     .linkedinLogo a {
         font-size: 34px;
+    }
+
+    .Jojotubers article {
+        font-size: 18px;
+        width: 95%;
+
+    }
+    .Konoyaro article {
+        width: fit-content;
+    }
+    
+    .JJoe article {
+        width: fit-content;
+    }
+
+    .DamoStories article {
+        width: fit-content;
     }
 
 }
