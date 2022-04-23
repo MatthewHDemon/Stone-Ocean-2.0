@@ -254,10 +254,11 @@ p {
 
 .historiaContainer {
     display: flex;
-    width: 95%;
+    width: 85%;
     flex-direction: row;
     align-items: flex-start;
 }
+
 .historiaContainer img {
     width: 750px;
     border-radius: 0 0 0px 8px;
