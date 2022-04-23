@@ -996,7 +996,7 @@ iframe {
     .menu {
         position: fixed;
         display: flex;
-        max-width: 100%;
+        min-width: 100%;
         justify-content: flex-end;
         padding: 0 0.5vh;
     }
