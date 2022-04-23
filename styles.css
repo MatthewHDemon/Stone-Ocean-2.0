@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     width: 100%;
     justify-items: center;
+    box-sizing: border-box;
 }
 
 .menu {
