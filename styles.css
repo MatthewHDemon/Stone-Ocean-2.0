@@ -981,6 +981,7 @@ iframe {
     .container {
         display: flex;
         align-content: center;
+        width: 100%;
     }
 
     .homecontainer {
