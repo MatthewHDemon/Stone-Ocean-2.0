@@ -225,6 +225,10 @@ li {
     background-position: center;
 }
 
+.menu {
+    max-width: 100%;
+}
+
 i {
     font-size: 50px;
     color: aliceblue;
@@ -246,7 +250,12 @@ p {
     padding: 8vh 0;
 }
 
+
+
+
+
 .historia {
+    width: fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -258,7 +267,6 @@ p {
     flex-direction: row;
     align-items: flex-start;
 }
-
 .historiaContainer img {
     width: 750px;
     border-radius: 0 0 0px 8px;
