@@ -978,12 +978,6 @@ iframe {
 
 
 @media screen and (max-width: 750px) {
-    .container {
-        display: flex;
-        align-content: center;
-        width: 100%;
-    }
-
     .homecontainer {
         display: flex;
         flex-direction: column;
